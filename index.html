@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Caesar Cipher</title>
+  <!-- Bootstrap CSS -->
+  <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+  <!-- Custom CSS -->
+  <link href="style.css" rel="stylesheet" type="text/css">
+</head>
+
+<body>
+  <div class="container text-center mt-5">
+    <h1 id="heading" class="mb-4">WELCOME TO CAESAR CIPHER <br>ENCRYPTION/DECRYPTION</h1>
+
+    <div class="form-group">
+      <input type="text" id="inputbox" class="form-control mx-auto mb-3" placeholder="Enter your message to shift">
+      <input type="number" id="keybox" class="form-control mx-auto mb-3" placeholder="Enter your key">
+    </div>
+
+    <div class="form-group">
+      <button id="box1" class="btn btn-secondary btn-block mb-2" onclick="encrypt()">Encrypt</button>
+      <button id="box2" class="btn btn-secondary btn-block mb-2" onclick="decrypt()">Decrypt</button>
+    </div>
+
+    <div class="form-group">
+      <input type="text" id="inputbox1" class="form-control mx-auto mb-2" placeholder="Result:">
+      <button id="box3" class="btn btn-secondary" onclick="copy()">Copy</button>
+    </div>
+
+    <p id="copyright" class="mt-4">© Created by Govindan S</p>
+  </div>
+
+  <!-- Bootstrap JS and dependencies -->
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.3/dist/umd/popper.min.js"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
+  <!-- Custom JS -->
+  <script src="test.js"></script>
+</body>
+
+</html>
